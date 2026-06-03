@@ -1,3 +1,6 @@
+@import url('layout.css');
+
+
 :root {
     --cogxp-blue: #47619C;
     --cogxp-dark: #1e293b;
@@ -20,6 +23,8 @@ body {
 main {
     min-height: 100vh;
 }
+
+
 
 .cogxp-hero {
     background: linear-gradient(135deg, #345e96 0%, #47619C 52%, #27375d 100%);

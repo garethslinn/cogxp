@@ -27,7 +27,7 @@ const buildFacilitatorPrompt = (card) => {
     return `Ask the team for one real example where "${card.title}" could affect users, then capture the likely impact and one practical improvement.`;
 };
 
-export default function COGXPWorkshop() {
+export default function WorkshopPage() {
     const [revealedCards, setRevealedCards] = useState(emptySlots);
     const [workshopNotes, setWorkshopNotes] = useState({});
     const [selectedCard, setSelectedCard] = useState(null);

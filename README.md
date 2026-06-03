@@ -36,7 +36,7 @@ src/
       HECCard.jsx
       HECCardBack.jsx
   data/cards/index.json
-  pages/COGXPWorkshop.jsx
+  pages/WorkshopPage.jsx
   styles/main.css
 ```
 
