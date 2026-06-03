@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 50 50">
+  <g paint-order="fill markers stroke">
+    <ellipse cx="25.1" cy="25.2" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" rx="16.5" ry="16"/>
+      <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" d="m23 9 2-7 3 7m-5 32 2 7 3-7m13-18 7 2-7 3M8 23l-6 2 7 3m7-4 16-6-6 16-2-7z"/>
+      <g transform="translate(0,-1.0583333)">
+      <rect width="1.1" height="3.7" x="25" y="12" rx=".1" ry=".1"/>
+          <rect width="1.1" height="3.7" x="25" y="37" rx=".1" ry=".1"/>
+    </g>
+      <g transform="rotate(90,25.870777,25.751285)">
+      <rect width="1.1" height="3.7" x="25" y="12" rx=".1" ry=".1"/>
+          <rect width="1.1" height="3.7" x="25" y="37" rx=".1" ry=".1"/>
+    </g>
+  </g>
+</svg>

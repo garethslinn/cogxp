@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 50 50">
+  <g fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" paint-order="fill markers stroke">
+    <path d="M20 41h10a2 2 0 1 1 0 3H20a2 2 0 1 1 0-3m-1-4h11a2 2 0 1 1 0 4H19a2 2 0 1 1 0-4m2 7a4 4 0 0 0 4 5 4 4 0 0 0 4-5zM18 3q-8 4-9 13c0 10 9 13 10 22v-1h12c1-8 9-11 9-21q-1-8-7-13-7-4-15 0"/>
+      <path d="M29 6q8 6 7 12"/>
+  </g>
+</svg>

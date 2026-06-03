@@ -81,12 +81,22 @@ export default function WorkshopPage() {
     }, [revealedCards, workshopNotes, selectedCard, currentStep]);
 
     const activeCards = revealedCards.filter(Boolean);
+
     const selectedCount = activeCards.length;
+
     const allCardsSelected = selectedCount === CARD_LIMIT;
 
     const activeCard = activeCards.find(
-        (item) => createCardKey(item) === selectedCard
+        item => createCardKey(item) === selectedCard
     );
+
+    useEffect(() => {
+        if (activeCards.length && !activeCard) {
+            setSelectedCard(
+                createCardKey(activeCards[0])
+            );
+        }
+    }, [activeCards, activeCard]);
 
     const revealCard = (slotIndex) => {
         if (revealedCards[slotIndex] || currentStep !== 1) return;
@@ -268,11 +278,23 @@ export default function WorkshopPage() {
                     {revealedCards.map((revealed, index) => (
                         <button
                             key={index}
-                            className="he-category-card"
-                            onClick={() => revealCard(index)}
-                            disabled={Boolean(revealed) || currentStep !== 1}
+                            className={`he-category-card ${
+                                revealed ? "selected" : ""
+                            }`}
+                            onClick={() => {
+
+                                if (!revealed && currentStep === 1) {
+                                    revealCard(index);
+                                }
+
+                            }}
                             type="button"
-                            aria-label={revealed ? `${revealed.card.title} revealed` : `Select card ${index + 1}`}
+                            aria-pressed={Boolean(revealed)}
+                            aria-label={
+                                revealed
+                                    ? `Selected card: ${revealed.card.title}`
+                                    : `Select card ${index + 1}`
+                            }
                         >
                             {revealed ? (
                                 <HECCard
@@ -312,14 +334,30 @@ export default function WorkshopPage() {
                             Select one of the revealed challenges to explore risk, discussion points, requirements and actions.
                         </p>
 
-                        <div className="he-selected-tabs" aria-label="Selected challenges">
+                        <div
+                            className="he-selected-tabs"
+                            role="tablist"
+                            aria-label="Selected challenges"
+                        >
                             {activeCards.map((item) => {
                                 const id = createCardKey(item);
                                 return (
                                     <button
                                         key={id}
-                                        className={`he-card-tab ${selectedCard === id ? "active" : ""}`}
-                                        onClick={() => setSelectedCard(id)}
+                                        role="tab"
+                                        aria-selected={
+                                            selectedCard === id
+                                        }
+                                        aria-controls={`panel-${id}`}
+                                        id={`tab-${id}`}
+                                        className={`he-card-tab ${
+                                            selectedCard === id
+                                                ? "active"
+                                                : ""
+                                        }`}
+                                        onClick={() =>
+                                            setSelectedCard(id)
+                                        }
                                         type="button"
                                     >
                                         {item.card.title}
