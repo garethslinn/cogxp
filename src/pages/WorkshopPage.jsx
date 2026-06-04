@@ -235,18 +235,6 @@ export default function WorkshopPage() {
 
     return (
         <main>
-            <Hero
-                eyebrow="COGXP by COGAI®"
-                title="Human Experience Planning"
-                description="
-                    A free workshop card tool for helping teams
-                    discuss hidden human experience risks before
-                    they become product problems.
-                "
-                ctaText="Start Workshop"
-                ctaHref="#cogxp-cards"
-            />
-
             <section className="container py-5" id="cogxp-cards">
                 <Card aria-labelledby="step-title">
                     <p className="eyebrow">Step {currentStep} of 2</p>

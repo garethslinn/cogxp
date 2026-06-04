@@ -2,30 +2,13 @@ import React from "react";
 import Button from "../components/Button";
 
 export default function Hero({
-             eyebrow,
-             title,
-             description,
-             ctaText,
-             ctaHref
-         }) {
-
-    const handleClick = () => {
-
-        const target =
-            document.querySelector(ctaHref);
-
-        if (target) {
-
-            target.scrollIntoView({
-                behavior: "smooth"
-            });
-
-        }
-
-    };
-
+                                 eyebrow,
+                                 title,
+                                 description,
+                                 ctaText,
+                                 ctaClick
+                             }) {
     return (
-
         <section className="cogxp-hero">
 
             <div className="container cogxp-hero-inner">
@@ -36,9 +19,7 @@ export default function Hero({
                     </p>
                 )}
 
-                <h1>
-                    {title}
-                </h1>
+                <h1>{title}</h1>
 
                 {description && (
                     <p className="lead">
@@ -46,19 +27,16 @@ export default function Hero({
                     </p>
                 )}
 
-                {ctaText && ctaHref && (
-
+                {ctaText && (
                     <Button
                         variant="secondary"
                         label={ctaText}
-                        onClick={handleClick}
+                        onClick={ctaClick}
                     />
-
                 )}
 
             </div>
 
         </section>
-
     );
 }
