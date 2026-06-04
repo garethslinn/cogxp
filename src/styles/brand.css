@@ -1,0 +1,9 @@
+.app-logo {
+    position: relative;
+
+    .logo {
+        position: relative;
+        margin-right: 0.4rem;
+        bottom: 2px;
+    }
+}

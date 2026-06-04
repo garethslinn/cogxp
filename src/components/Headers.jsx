@@ -1,10 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
+import logo from "../images/logo.svg";
 
 export default function Header() {
 
     return (
 
-        <header className="app-header">
+        <header className="header">
 
             <div className="container">
 
@@ -14,7 +15,7 @@ export default function Header() {
                         to="/"
                         className="app-logo"
                     >
-                        COGXP
+                        <img src={logo} className="logo" width="50rem" alt="logo" />COGXP
                     </Link>
 
                     <nav
