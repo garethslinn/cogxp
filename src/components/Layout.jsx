@@ -1,4 +1,6 @@
 import Header from "../components/Headers";
+import Breadcrumb from "./Breadcrumb";
+
 
 export default function Layout({
                                    children
@@ -15,6 +17,7 @@ export default function Layout({
             </a>
 
             <Header />
+            <Breadcrumb />
 
             <main
                 id="main-content"

@@ -6,6 +6,7 @@ import HECCardBack from "../components/card/HECCardBack.jsx";
 import cardsData from "../data/cards/index.json";
 import Hero from "../components/Hero.jsx";
 import {Card} from "react-bootstrap";
+import {useBreadcrumb} from "../context/BreadcrumbContext.jsx";
 
 const CARD_LIMIT = 3;
 const STORAGE_KEY = "cogxp-workshop-v1";
@@ -36,6 +37,12 @@ export default function WorkshopPage() {
     const [currentStep, setCurrentStep] = useState(1);
     const [copyStatus, setCopyStatus] = useState("");
     const reportRef = useRef(null);
+
+    const {updateBreadcrumbs} = useBreadcrumb();
+
+    useEffect(() => {
+        updateBreadcrumbs([{label: "Workshop", path: "/workshop"}]);
+    }, []);
 
     const deck = useMemo(() => {
         return cardsData.categories.flatMap((category) =>

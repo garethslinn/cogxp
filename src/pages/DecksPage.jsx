@@ -1,11 +1,18 @@
-import { useState } from "react";
+import {useEffect, useState} from "react";
 
 import {
     getDecks,
     saveDecks
 } from "../helpers/decks";
+import {useBreadcrumb} from "../context/BreadcrumbContext.jsx";
 
 export default function DecksPage() {
+
+    const {updateBreadcrumbs} = useBreadcrumb();
+
+    useEffect(() => {
+        updateBreadcrumbs([{label: "Decks", path: "/decks"}]);
+    }, []);
 
     const [decks, setDecks] =
         useState(getDecks());

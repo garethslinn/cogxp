@@ -6,38 +6,41 @@ import {
 } from "react-router-dom";
 
 import Layout from "./components/Layout";
-import Dashboard from "./pages/Dashboard";
+import Home from "./pages/Home.jsx";
 import WorkshopPage from "./pages/WorkshopPage";
 import DecksPage from "./pages/DecksPage";
+import { BreadcrumbProvider } from "./context/BreadcrumbContext";
 
 export default function App() {
     return (
-        <BrowserRouter>
-            <Layout>
-                <Routes>
+        <BreadcrumbProvider>
+            <BrowserRouter>
+                <Layout>
+                    <Routes>
 
-                    <Route
-                        path="/"
-                        element={<Dashboard />}
-                    />
+                        <Route
+                            path="/"
+                            element={<Home />}
+                        />
 
-                    <Route
-                        path="/workshop"
-                        element={<WorkshopPage />}
-                    />
+                        <Route
+                            path="/workshop"
+                            element={<WorkshopPage />}
+                        />
 
-                    <Route
-                        path="/decks"
-                        element={<DecksPage />}
-                    />
+                        <Route
+                            path="/decks"
+                            element={<DecksPage />}
+                        />
 
-                    <Route
-                        path="*"
-                        element={<Navigate to="/" />}
-                    />
+                        <Route
+                            path="*"
+                            element={<Navigate to="/" />}
+                        />
 
-                </Routes>
-            </Layout>
-        </BrowserRouter>
+                    </Routes>
+                </Layout>
+            </BrowserRouter>
+        </BreadcrumbProvider>
     );
 }
