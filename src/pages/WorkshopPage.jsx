@@ -4,6 +4,8 @@ import Tabs from "../components/Tabs.jsx";
 import HECCard from "../components/card/HECCard.jsx";
 import HECCardBack from "../components/card/HECCardBack.jsx";
 import cardsData from "../data/cards/index.json";
+import Hero from "../components/Hero.jsx";
+import {Card} from "react-bootstrap";
 
 const CARD_LIMIT = 3;
 const STORAGE_KEY = "cogxp-workshop-v1";
@@ -226,19 +228,20 @@ export default function WorkshopPage() {
 
     return (
         <main>
-            <section className="cogxp-hero">
-                <div className="container cogxp-hero-inner">
-                    <p className="eyebrow">COGXP by COGAI®</p>
-                    <h1>Human Experience Planning</h1>
-                    <p className="lead">
-                        A free workshop card tool for helping teams discuss hidden human experience risks before they become product problems.
-                    </p>
-                    <a className="hero-link" href="#cogxp-cards">Start workshop</a>
-                </div>
-            </section>
+            <Hero
+                eyebrow="COGXP by COGAI®"
+                title="Human Experience Planning"
+                description="
+                    A free workshop card tool for helping teams
+                    discuss hidden human experience risks before
+                    they become product problems.
+                "
+                ctaText="Start Workshop"
+                ctaHref="#cogxp-cards"
+            />
 
             <section className="container py-5" id="cogxp-cards">
-                <div className="step-panel" aria-labelledby="step-title">
+                <Card aria-labelledby="step-title">
                     <p className="eyebrow">Step {currentStep} of 2</p>
                     <h2 id="step-title">
                         {currentStep === 1 ? "Select three challenge cards" : "Discuss and capture outcomes"}
@@ -248,7 +251,7 @@ export default function WorkshopPage() {
                             ? "Select any card position. Each card reveals one unique Human Experience challenge from the deck."
                             : "Choose a selected challenge, use the workshop tabs, and capture notes, requirements and actions."}
                     </p>
-                </div>
+                </Card>
 
                 <div className="toolbar" aria-label="Workshop controls">
                     <button className="btn btn-outline-secondary" type="button" onClick={resetWorkshop}>

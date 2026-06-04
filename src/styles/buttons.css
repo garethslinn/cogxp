@@ -1,0 +1,199 @@
+
+.cog-btn {
+    display: inline-flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    line-height: 1.3;
+}
+
+.cog-btn__icon {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+}
+
+.cog-btn__label {
+    display: inline-block;
+}
+
+/* Hover / active states */
+.cog-btn:hover:not(.is-disabled) {
+
+}
+
+.cog-btn:active:not(.is-disabled) {
+}
+
+/* Variants */
+.cog-btn--primary {
+    background-color: #345e96;
+    border: 2px solid #345e96;
+    color: white;
+}
+
+.cog-btn--primary:hover:not(.is-disabled) {
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.cog-btn--secondary {
+    background-color: #fff;
+    border: 2px solid #345e96;
+    color: #345e96;
+}
+
+.cog-btn--black {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.cog-btn--white {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+}
+
+
+.cog-btn--secondary:hover:not(.is-disabled) {
+    background-color: #efefef;
+}
+
+.cog-btn--header {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.cog-btn--header:hover:not(.is-disabled) {
+    background-color: #555;
+    color: #fff;
+}
+
+.cog-btn--action {
+    background-color: #218838;
+    border: 2px solid #218838;
+    color: white;
+}
+
+.cog-btn--action:hover:not(.is-disabled) {
+    background-color: #000;
+    border: 2px solid #000;
+}
+
+.cog-btn--danger {
+    background-color: #dc2626;
+    color: white;
+}
+
+.cog-btn--danger:hover:not(.is-disabled) {
+    background-color: #b91c1c;
+}
+
+/* Disabled state */
+.is-disabled {
+    /*opacity: 0.6;*/
+    color: #fff;
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+
+/* video buttons */
+.cog-btn--video {
+    background: #345e96;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 0 0.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.2rem;
+    height: 2.8rem;
+    /*min-height: 10px;*/
+    /*line-height: 1.2;*/
+}
+
+.cog-btn--video:hover:not(.is-disabled),
+.cog-btn--video:focus-visible:not(.is-disabled) {
+    background: #236aa4;
+    color: #fff;
+    outline: none;
+    border-color: #236aa4;
+}
+
+.cog-btn--video .cog-btn__icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.cog-btn--large {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.cog-btn--large .cog-btn__icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Medium – slightly larger than normal, smaller than large */
+.cog-btn--medium {
+    font-size: 1.5rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.cog-btn--medium .cog-btn__icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/*Three column video*/
+
+.image-button {
+    border: 0;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.image-button:focus-visible {
+    outline: 3px solid #335e96;
+    outline-offset: 4px;
+}
+
+.what-why-how-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    background: none;
+    border: none;
+    color: #345e96;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
