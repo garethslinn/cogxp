@@ -1,466 +1,166 @@
 {
   "deck": "COGAI® Human Experience Cards",
-  "version": "1.0",
-  "cardCount": 50,
+  "version": "2.0",
+  "cardCount": 100,
   "categories": [
     {
       "name": "Understanding",
       "theme": "#47619C",
       "cards": [
-        {
-          "title": "Ambiguity",
-          "text": "People cannot easily understand what is being asked of them."
-        },
-        {
-          "title": "Complexity",
-          "text": "People must work too hard to understand what is happening."
-        },
-        {
-          "title": "Jargon",
-          "text": "Specialist language creates barriers to understanding."
-        },
-        {
-          "title": "Assumptions",
-          "text": "People are expected to know things that have not been explained."
-        },
-        {
-          "title": "Hidden Meaning",
-          "text": "Important information is implied rather than stated."
-        },
-        {
-          "title": "Information Gap",
-          "text": "People lack the information needed to make progress."
-        },
-        {
-          "title": "Unclear Purpose",
-          "text": "People do not understand why they are being asked to do something."
-        },
-        {
-          "title": "Poor Instructions",
-          "text": "Guidance is difficult to follow or incomplete."
-        },
-        {
-          "title": "Missing Context",
-          "text": "People are not given enough background to understand the situation."
-        },
-        {
-          "title": "Comprehension Failure",
-          "text": "People misunderstand the information being presented."
-        }
+        { "title": "Ambiguity", "text": "People cannot easily understand what is being asked of them." },
+        { "title": "Complexity", "text": "People must work too hard to understand what is happening." },
+        { "title": "Jargon", "text": "Specialist language creates barriers to understanding." },
+        { "title": "Assumptions", "text": "People are expected to know things that have not been explained." },
+        { "title": "Hidden Meaning", "text": "Important information is implied rather than stated." },
+        { "title": "Information Gap", "text": "People lack the information needed to make progress." },
+        { "title": "Unclear Purpose", "text": "People do not understand why they are being asked to do something." },
+        { "title": "Poor Instructions", "text": "Guidance is difficult to follow or incomplete." },
+        { "title": "Missing Context", "text": "People are not given enough background to understand the situation." },
+        { "title": "Comprehension Failure", "text": "People misunderstand the information being presented." }
       ]
     },
     {
       "name": "Memory",
       "theme": "#85489C",
       "cards": [
-        {
-          "title": "Recall",
-          "text": "People must remember information that is no longer visible."
-        },
-        {
-          "title": "Context Loss",
-          "text": "People lose track of where they are or what they were doing."
-        },
-        {
-          "title": "Repetition",
-          "text": "People are repeatedly asked for the same information."
-        },
-        {
-          "title": "Forgotten Instructions",
-          "text": "People cannot easily refer back to previous guidance."
-        },
-        {
-          "title": "Interrupted Task",
-          "text": "People lose momentum and must restart their thinking."
-        },
-        {
-          "title": "Working Memory Load",
-          "text": "People must hold too much information in their mind at once."
-        },
-        {
-          "title": "Hidden Information",
-          "text": "Important details are unavailable when they are needed."
-        },
-        {
-          "title": "Dependency",
-          "text": "Progress depends on remembering something from an earlier step."
-        },
-        {
-          "title": "Remembering Across Steps",
-          "text": "People must carry information between different stages of a task."
-        },
-        {
-          "title": "Lost Reference",
-          "text": "People cannot easily find information they previously saw."
-        }
+        { "title": "Recall", "text": "People must remember information that is no longer visible." },
+        { "title": "Context Loss", "text": "People lose track of where they are or what they were doing." },
+        { "title": "Repetition", "text": "People are repeatedly asked for the same information." },
+        { "title": "Forgotten Instructions", "text": "People cannot easily refer back to previous guidance." },
+        { "title": "Interrupted Task", "text": "People lose momentum and must restart their thinking." },
+        { "title": "Working Memory Load", "text": "People must hold too much information in their mind at once." },
+        { "title": "Hidden Information", "text": "Important details are unavailable when they are needed." },
+        { "title": "Dependency", "text": "Progress depends on remembering something from an earlier step." },
+        { "title": "Remembering Across Steps", "text": "People must carry information between different stages of a task." },
+        { "title": "Lost Reference", "text": "People cannot easily find information they previously saw." }
       ]
     },
     {
       "name": "Attention",
       "theme": "#9C4866",
       "cards": [
-        {
-          "title": "Overload",
-          "text": "People are being asked to process too much at once."
-        },
-        {
-          "title": "Distraction",
-          "text": "Competing elements pull attention away from the task."
-        },
-        {
-          "title": "Saturation",
-          "text": "The volume of information exceeds people's capacity to process it."
-        },
-        {
-          "title": "Noise",
-          "text": "Irrelevant information makes important information harder to find."
-        },
-        {
-          "title": "Competing Priorities",
-          "text": "Multiple demands make it difficult to focus on what matters."
-        },
-        {
-          "title": "Visual Clutter",
-          "text": "Too many visual elements compete for attention."
-        },
-        {
-          "title": "Attention Drift",
-          "text": "People struggle to maintain focus throughout the task."
-        },
-        {
-          "title": "Interruptions",
-          "text": "The flow of attention is repeatedly broken."
-        },
-        {
-          "title": "Fragmentation",
-          "text": "Information is scattered across multiple locations."
-        },
-        {
-          "title": "Scanning Burden",
-          "text": "People must search too hard to find what they need."
-        }
+        { "title": "Overload", "text": "People are being asked to process too much at once." },
+        { "title": "Distraction", "text": "Competing elements pull attention away from the task." },
+        { "title": "Saturation", "text": "The volume of information exceeds people's capacity to process it." },
+        { "title": "Noise", "text": "Irrelevant information makes important information harder to find." },
+        { "title": "Competing Priorities", "text": "Multiple demands make it difficult to focus on what matters." },
+        { "title": "Visual Clutter", "text": "Too many visual elements compete for attention." },
+        { "title": "Attention Drift", "text": "People struggle to maintain focus throughout the task." },
+        { "title": "Interruptions", "text": "The flow of attention is repeatedly broken." },
+        { "title": "Fragmentation", "text": "Information is scattered across multiple locations." },
+        { "title": "Scanning Burden", "text": "People must search too hard to find what they need." }
       ]
     },
     {
       "name": "Decisions",
       "theme": "#47949C",
       "cards": [
-        {
-          "title": "Choice Overload",
-          "text": "Too many options make decision-making harder."
-        },
-        {
-          "title": "Uncertainty",
-          "text": "People cannot tell what will happen next."
-        },
-        {
-          "title": "Comparison Difficulty",
-          "text": "Options are difficult to compare and evaluate."
-        },
-        {
-          "title": "Decision Fatigue",
-          "text": "Repeated decisions reduce confidence and effectiveness."
-        },
-        {
-          "title": "Commitment Anxiety",
-          "text": "People worry about making the wrong choice."
-        },
-        {
-          "title": "Risk Assessment",
-          "text": "People struggle to understand the consequences of their choices."
-        },
-        {
-          "title": "Conflicting Options",
-          "text": "Available choices appear to contradict each other."
-        },
-        {
-          "title": "Lack of Confidence",
-          "text": "People do not feel confident enough to proceed."
-        },
-        {
-          "title": "Hidden Consequences",
-          "text": "The impact of a decision is not immediately clear."
-        },
-        {
-          "title": "Too Many Steps",
-          "text": "The path to a decision feels unnecessarily long or difficult."
-        }
+        { "title": "Choice Overload", "text": "Too many options make decision-making harder." },
+        { "title": "Uncertainty", "text": "People cannot tell what will happen next." },
+        { "title": "Comparison Difficulty", "text": "Options are difficult to compare and evaluate." },
+        { "title": "Decision Fatigue", "text": "Repeated decisions reduce confidence and effectiveness." },
+        { "title": "Commitment Anxiety", "text": "People worry about making the wrong choice." },
+        { "title": "Risk Assessment", "text": "People struggle to understand the consequences of their choices." },
+        { "title": "Conflicting Options", "text": "Available choices appear to contradict each other." },
+        { "title": "Lack of Confidence", "text": "People do not feel confident enough to proceed." },
+        { "title": "Hidden Consequences", "text": "The impact of a decision is not immediately clear." },
+        { "title": "Too Many Steps", "text": "The path to a decision feels unnecessarily long or difficult." }
       ]
     },
     {
       "name": "Navigation",
       "theme": "#9D6847",
       "cards": [
-        {
-          "title": "Lost Progress",
-          "text": "People lose their place and must start again."
-        },
-        {
-          "title": "Dead End",
-          "text": "People reach a point where they cannot continue."
-        },
-        {
-          "title": "Unclear Next Step",
-          "text": "People do not know what they should do next."
-        },
-        {
-          "title": "Poor Feedback",
-          "text": "The system does not clearly communicate what is happening."
-        },
-        {
-          "title": "Orientation Loss",
-          "text": "People lose track of where they are within the experience."
-        },
-        {
-          "title": "Hidden Route",
-          "text": "The path forward is difficult to discover."
-        },
-        {
-          "title": "Unexpected Outcome",
-          "text": "The result differs from what people reasonably expected."
-        },
-        {
-          "title": "Recovery Failure",
-          "text": "People cannot easily recover from mistakes."
-        },
-        {
-          "title": "Journey Friction",
-          "text": "Unnecessary obstacles slow progress toward a goal."
-        },
-        {
-          "title": "No Way Back",
-          "text": "People cannot easily reverse or undo their actions."
-        }
+        { "title": "Lost Progress", "text": "People lose their place and must start again." },
+        { "title": "Dead End", "text": "People reach a point where they cannot continue." },
+        { "title": "Unclear Next Step", "text": "People do not know what they should do next." },
+        { "title": "Poor Feedback", "text": "The system does not clearly communicate what is happening." },
+        { "title": "Orientation Loss", "text": "People lose track of where they are within the experience." },
+        { "title": "Hidden Route", "text": "The path forward is difficult to discover." },
+        { "title": "Unexpected Outcome", "text": "The result differs from what people reasonably expected." },
+        { "title": "Recovery Failure", "text": "People cannot easily recover from mistakes." },
+        { "title": "Journey Friction", "text": "Unnecessary obstacles slow progress toward a goal." },
+        { "title": "No Way Back", "text": "People cannot easily reverse or undo their actions." }
       ]
     },
     {
       "name": "Vision",
       "theme": "#4D7CFE",
       "cards": [
-        {
-          "title": "Low Contrast",
-          "text": "Important information is difficult to distinguish from its background."
-        },
-        {
-          "title": "Missing Alternative Text",
-          "text": "Visual content is unavailable to people who cannot see it."
-        },
-        {
-          "title": "Colour Dependence",
-          "text": "Information can only be understood through colour."
-        },
-        {
-          "title": "Small Text",
-          "text": "Text is difficult to read without magnification."
-        },
-        {
-          "title": "Zoom Failure",
-          "text": "Content becomes unusable when enlarged."
-        },
-        {
-          "title": "Hidden Content",
-          "text": "Important information disappears at different screen sizes."
-        },
-        {
-          "title": "Visual Overload",
-          "text": "The presentation makes key information difficult to locate."
-        },
-        {
-          "title": "Poor Focus Visibility",
-          "text": "People cannot easily see where focus currently is."
-        },
-        {
-          "title": "Information in Images",
-          "text": "Critical information is embedded inside graphics."
-        },
-        {
-          "title": "Unreadable Layout",
-          "text": "The arrangement of content makes reading difficult."
-        }
+        { "title": "Low Contrast", "text": "Important information is difficult to distinguish from its background." },
+        { "title": "Missing Alternative Text", "text": "Visual content is unavailable to people who cannot see it." },
+        { "title": "Colour Dependence", "text": "Information can only be understood through colour." },
+        { "title": "Small Text", "text": "Text is difficult to read without magnification." },
+        { "title": "Zoom Failure", "text": "Content becomes unusable when enlarged." },
+        { "title": "Hidden Content", "text": "Important information disappears at different screen sizes." },
+        { "title": "Visual Overload", "text": "The presentation makes key information difficult to locate." },
+        { "title": "Poor Focus Visibility", "text": "People cannot easily see where focus currently is." },
+        { "title": "Information in Images", "text": "Critical information is embedded inside graphics." },
+        { "title": "Unreadable Layout", "text": "The arrangement of content makes reading difficult." }
       ]
     },
     {
       "name": "Hearing",
       "theme": "#3D8F7A",
       "cards": [
-        {
-          "title": "Missing Captions",
-          "text": "Spoken information is unavailable in text form."
-        },
-        {
-          "title": "No Transcript",
-          "text": "Audio content cannot be reviewed in written form."
-        },
-        {
-          "title": "Audio Only Information",
-          "text": "Important information is delivered only through sound."
-        },
-        {
-          "title": "Poor Audio Quality",
-          "text": "Audio is difficult to understand."
-        },
-        {
-          "title": "Missing Alerts",
-          "text": "Important notifications rely solely on sound."
-        },
-        {
-          "title": "Background Noise",
-          "text": "Competing sounds interfere with understanding."
-        },
-        {
-          "title": "Unclear Speech",
-          "text": "Speech lacks sufficient clarity."
-        },
-        {
-          "title": "No Visual Equivalent",
-          "text": "Audio information has no visual alternative."
-        },
-        {
-          "title": "Autoplay Audio",
-          "text": "Unexpected sound disrupts the experience."
-        },
-        {
-          "title": "Missing Signposting",
-          "text": "Audio content lacks structure or navigation cues."
-        }
+        { "title": "Missing Captions", "text": "Spoken information is unavailable in text form." },
+        { "title": "No Transcript", "text": "Audio content cannot be reviewed in written form." },
+        { "title": "Audio Only Information", "text": "Important information is delivered only through sound." },
+        { "title": "Poor Audio Quality", "text": "Audio is difficult to understand." },
+        { "title": "Missing Alerts", "text": "Important notifications rely solely on sound." },
+        { "title": "Background Noise", "text": "Competing sounds interfere with understanding." },
+        { "title": "Unclear Speech", "text": "Speech lacks sufficient clarity." },
+        { "title": "No Visual Equivalent", "text": "Audio information has no visual alternative." },
+        { "title": "Autoplay Audio", "text": "Unexpected sound disrupts the experience." },
+        { "title": "Missing Signposting", "text": "Audio content lacks structure or navigation cues." }
       ]
     },
     {
       "name": "Interaction",
       "theme": "#C56B2C",
       "cards": [
-        {
-          "title": "Keyboard Trap",
-          "text": "People cannot easily move through the experience using a keyboard."
-        },
-        {
-          "title": "Small Target",
-          "text": "Interactive elements are difficult to activate accurately."
-        },
-        {
-          "title": "Time Pressure",
-          "text": "Tasks must be completed within restrictive time limits."
-        },
-        {
-          "title": "Drag Requirement",
-          "text": "Actions depend on dragging movements."
-        },
-        {
-          "title": "Gesture Dependency",
-          "text": "Interaction relies on complex gestures."
-        },
-        {
-          "title": "Complex Input",
-          "text": "Tasks require unnecessary precision or effort."
-        },
-        {
-          "title": "Accidental Activation",
-          "text": "Controls are triggered unintentionally."
-        },
-        {
-          "title": "Inconsistent Controls",
-          "text": "Interactions behave differently across the experience."
-        },
-        {
-          "title": "Difficult Forms",
-          "text": "Form completion requires excessive effort."
-        },
-        {
-          "title": "Interaction Failure",
-          "text": "People are unable to complete intended actions."
-        }
+        { "title": "Keyboard Trap", "text": "People cannot easily move through the experience using a keyboard." },
+        { "title": "Small Target", "text": "Interactive elements are difficult to activate accurately." },
+        { "title": "Time Pressure", "text": "Tasks must be completed within restrictive time limits." },
+        { "title": "Drag Requirement", "text": "Actions depend on dragging movements." },
+        { "title": "Gesture Dependency", "text": "Interaction relies on complex gestures." },
+        { "title": "Complex Input", "text": "Tasks require unnecessary precision or effort." },
+        { "title": "Accidental Activation", "text": "Controls are triggered unintentionally." },
+        { "title": "Inconsistent Controls", "text": "Interactions behave differently across the experience." },
+        { "title": "Difficult Forms", "text": "Form completion requires excessive effort." },
+        { "title": "Interaction Failure", "text": "People are unable to complete intended actions." }
       ]
     },
     {
       "name": "Communication",
       "theme": "#B04B7E",
       "cards": [
-        {
-          "title": "Unclear Error",
-          "text": "People cannot understand what went wrong."
-        },
-        {
-          "title": "Missing Feedback",
-          "text": "The system does not confirm actions or outcomes."
-        },
-        {
-          "title": "Validation Failure",
-          "text": "People are not told how to correct mistakes."
-        },
-        {
-          "title": "Ambiguous Labels",
-          "text": "Labels do not clearly describe their purpose."
-        },
-        {
-          "title": "Status Unclear",
-          "text": "People cannot determine the current state of the system."
-        },
-        {
-          "title": "System Silence",
-          "text": "The system provides no meaningful response."
-        },
-        {
-          "title": "Confusing Messages",
-          "text": "Communication increases uncertainty rather than clarity."
-        },
-        {
-          "title": "Hidden Errors",
-          "text": "Problems are not obvious or discoverable."
-        },
-        {
-          "title": "Poor Confirmation",
-          "text": "People are unsure whether an action succeeded."
-        },
-        {
-          "title": "Communication Breakdown",
-          "text": "The exchange between person and system fails."
-        }
+        { "title": "Unclear Error", "text": "People cannot understand what went wrong." },
+        { "title": "Missing Feedback", "text": "The system does not confirm actions or outcomes." },
+        { "title": "Validation Failure", "text": "People are not told how to correct mistakes." },
+        { "title": "Ambiguous Labels", "text": "Labels do not clearly describe their purpose." },
+        { "title": "Status Unclear", "text": "People cannot determine the current state of the system." },
+        { "title": "System Silence", "text": "The system provides no meaningful response." },
+        { "title": "Confusing Messages", "text": "Communication increases uncertainty rather than clarity." },
+        { "title": "Hidden Errors", "text": "Problems are not obvious or discoverable." },
+        { "title": "Poor Confirmation", "text": "People are unsure whether an action succeeded." },
+        { "title": "Communication Breakdown", "text": "The exchange between person and system fails." }
       ]
     },
     {
       "name": "Adaptation",
       "theme": "#5A8F4B",
       "cards": [
-        {
-          "title": "Screen Reader Failure",
-          "text": "Assistive technologies cannot access content correctly."
-        },
-        {
-          "title": "Zoom Restriction",
-          "text": "People cannot enlarge content effectively."
-        },
-        {
-          "title": "Customisation Blocked",
-          "text": "Personal preferences cannot be applied."
-        },
-        {
-          "title": "Assistive Technology Conflict",
-          "text": "The experience does not work with assistive tools."
-        },
-        {
-          "title": "Fixed Layout",
-          "text": "Content cannot adapt to different needs or contexts."
-        },
-        {
-          "title": "Responsive Failure",
-          "text": "The experience breaks across devices or viewports."
-        },
-        {
-          "title": "Device Dependency",
-          "text": "Tasks can only be completed on specific devices."
-        },
-        {
-          "title": "Compatibility Issue",
-          "text": "Technology combinations create barriers."
-        },
-        {
-          "title": "Unsupported Preference",
-          "text": "User settings are ignored or overridden."
-        },
-        {
-          "title": "Technology Barrier",
-          "text": "Technical limitations prevent successful participation."
-        }
+        { "title": "Screen Reader Failure", "text": "Assistive technologies cannot access content correctly." },
+        { "title": "Zoom Restriction", "text": "People cannot enlarge content effectively." },
+        { "title": "Customisation Blocked", "text": "Personal preferences cannot be applied." },
+        { "title": "Assistive Technology Conflict", "text": "The experience does not work with assistive tools." },
+        { "title": "Fixed Layout", "text": "Content cannot adapt to different needs or contexts." },
+        { "title": "Responsive Failure", "text": "The experience breaks across devices or viewports." },
+        { "title": "Device Dependency", "text": "Tasks can only be completed on specific devices." },
+        { "title": "Compatibility Issue", "text": "Technology combinations create barriers." },
+        { "title": "Unsupported Preference", "text": "User settings are ignored or overridden." },
+        { "title": "Technology Barrier", "text": "Technical limitations prevent successful participation." }
       ]
     }
   ]
