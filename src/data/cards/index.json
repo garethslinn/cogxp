@@ -232,6 +232,236 @@
           "text": "People cannot easily reverse or undo their actions."
         }
       ]
+    },
+    {
+      "name": "Vision",
+      "theme": "#4D7CFE",
+      "cards": [
+        {
+          "title": "Low Contrast",
+          "text": "Important information is difficult to distinguish from its background."
+        },
+        {
+          "title": "Missing Alternative Text",
+          "text": "Visual content is unavailable to people who cannot see it."
+        },
+        {
+          "title": "Colour Dependence",
+          "text": "Information can only be understood through colour."
+        },
+        {
+          "title": "Small Text",
+          "text": "Text is difficult to read without magnification."
+        },
+        {
+          "title": "Zoom Failure",
+          "text": "Content becomes unusable when enlarged."
+        },
+        {
+          "title": "Hidden Content",
+          "text": "Important information disappears at different screen sizes."
+        },
+        {
+          "title": "Visual Overload",
+          "text": "The presentation makes key information difficult to locate."
+        },
+        {
+          "title": "Poor Focus Visibility",
+          "text": "People cannot easily see where focus currently is."
+        },
+        {
+          "title": "Information in Images",
+          "text": "Critical information is embedded inside graphics."
+        },
+        {
+          "title": "Unreadable Layout",
+          "text": "The arrangement of content makes reading difficult."
+        }
+      ]
+    },
+    {
+      "name": "Hearing",
+      "theme": "#3D8F7A",
+      "cards": [
+        {
+          "title": "Missing Captions",
+          "text": "Spoken information is unavailable in text form."
+        },
+        {
+          "title": "No Transcript",
+          "text": "Audio content cannot be reviewed in written form."
+        },
+        {
+          "title": "Audio Only Information",
+          "text": "Important information is delivered only through sound."
+        },
+        {
+          "title": "Poor Audio Quality",
+          "text": "Audio is difficult to understand."
+        },
+        {
+          "title": "Missing Alerts",
+          "text": "Important notifications rely solely on sound."
+        },
+        {
+          "title": "Background Noise",
+          "text": "Competing sounds interfere with understanding."
+        },
+        {
+          "title": "Unclear Speech",
+          "text": "Speech lacks sufficient clarity."
+        },
+        {
+          "title": "No Visual Equivalent",
+          "text": "Audio information has no visual alternative."
+        },
+        {
+          "title": "Autoplay Audio",
+          "text": "Unexpected sound disrupts the experience."
+        },
+        {
+          "title": "Missing Signposting",
+          "text": "Audio content lacks structure or navigation cues."
+        }
+      ]
+    },
+    {
+      "name": "Interaction",
+      "theme": "#C56B2C",
+      "cards": [
+        {
+          "title": "Keyboard Trap",
+          "text": "People cannot easily move through the experience using a keyboard."
+        },
+        {
+          "title": "Small Target",
+          "text": "Interactive elements are difficult to activate accurately."
+        },
+        {
+          "title": "Time Pressure",
+          "text": "Tasks must be completed within restrictive time limits."
+        },
+        {
+          "title": "Drag Requirement",
+          "text": "Actions depend on dragging movements."
+        },
+        {
+          "title": "Gesture Dependency",
+          "text": "Interaction relies on complex gestures."
+        },
+        {
+          "title": "Complex Input",
+          "text": "Tasks require unnecessary precision or effort."
+        },
+        {
+          "title": "Accidental Activation",
+          "text": "Controls are triggered unintentionally."
+        },
+        {
+          "title": "Inconsistent Controls",
+          "text": "Interactions behave differently across the experience."
+        },
+        {
+          "title": "Difficult Forms",
+          "text": "Form completion requires excessive effort."
+        },
+        {
+          "title": "Interaction Failure",
+          "text": "People are unable to complete intended actions."
+        }
+      ]
+    },
+    {
+      "name": "Communication",
+      "theme": "#B04B7E",
+      "cards": [
+        {
+          "title": "Unclear Error",
+          "text": "People cannot understand what went wrong."
+        },
+        {
+          "title": "Missing Feedback",
+          "text": "The system does not confirm actions or outcomes."
+        },
+        {
+          "title": "Validation Failure",
+          "text": "People are not told how to correct mistakes."
+        },
+        {
+          "title": "Ambiguous Labels",
+          "text": "Labels do not clearly describe their purpose."
+        },
+        {
+          "title": "Status Unclear",
+          "text": "People cannot determine the current state of the system."
+        },
+        {
+          "title": "System Silence",
+          "text": "The system provides no meaningful response."
+        },
+        {
+          "title": "Confusing Messages",
+          "text": "Communication increases uncertainty rather than clarity."
+        },
+        {
+          "title": "Hidden Errors",
+          "text": "Problems are not obvious or discoverable."
+        },
+        {
+          "title": "Poor Confirmation",
+          "text": "People are unsure whether an action succeeded."
+        },
+        {
+          "title": "Communication Breakdown",
+          "text": "The exchange between person and system fails."
+        }
+      ]
+    },
+    {
+      "name": "Adaptation",
+      "theme": "#5A8F4B",
+      "cards": [
+        {
+          "title": "Screen Reader Failure",
+          "text": "Assistive technologies cannot access content correctly."
+        },
+        {
+          "title": "Zoom Restriction",
+          "text": "People cannot enlarge content effectively."
+        },
+        {
+          "title": "Customisation Blocked",
+          "text": "Personal preferences cannot be applied."
+        },
+        {
+          "title": "Assistive Technology Conflict",
+          "text": "The experience does not work with assistive tools."
+        },
+        {
+          "title": "Fixed Layout",
+          "text": "Content cannot adapt to different needs or contexts."
+        },
+        {
+          "title": "Responsive Failure",
+          "text": "The experience breaks across devices or viewports."
+        },
+        {
+          "title": "Device Dependency",
+          "text": "Tasks can only be completed on specific devices."
+        },
+        {
+          "title": "Compatibility Issue",
+          "text": "Technology combinations create barriers."
+        },
+        {
+          "title": "Unsupported Preference",
+          "text": "User settings are ignored or overridden."
+        },
+        {
+          "title": "Technology Barrier",
+          "text": "Technical limitations prevent successful participation."
+        }
+      ]
     }
   ]
 }
