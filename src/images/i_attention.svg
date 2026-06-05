@@ -1,58 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="50mm"
-   height="50mm"
-   viewBox="0 0 50 50"
-   version="1.1"
-   id="svg119275"
-   xml:space="preserve"
-   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
-   sodipodi:docname="i_attention.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview119277"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="2.2112029"
-     inkscape:cx="92.709718"
-     inkscape:cy="44.77201"
-     inkscape:window-width="1728"
-     inkscape:window-height="1014"
-     inkscape:window-x="0"
-     inkscape:window-y="33"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" /><defs
-     id="defs119272" /><g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"><g
-       id="g144794"><path
-         style="fill:#ffffff;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke"
-         d="M 16.902401,29.615317 17.046866,8.5234329 c 0.22392,-3.4297426 4.764701,-3.5797184 5.634133,-0.1444651 l 0.284224,-3.2553817 c 0.04803,-2.4795122 5.429829,-4.17481736 6.04562,-0.1383386 l 0.171079,3.5381854 c 1.304119,-4.0012618 6.239242,-3.2490749 6.211993,0.7223247 v 3.6116244 c 1.563099,-3.7613805 5.425834,-2.693198 5.778598,0.866789 l 0.123662,18.920326 C 41.085946,41.245856 34.118367,47.080167 26.423662,46.946626 19.601112,46.452118 15.701429,41.027283 12.255899,35.965768 9.8172782,32.35303 8.0901885,28.858459 7.2232452,26.292623 c -0.461175,-3.922365 2.4850877,-5.658295 5.4896688,-4.189484 2.769913,1.998064 3.397369,4.785453 4.189487,7.512178 z"
-         id="path144787"
-         sodipodi:nodetypes="ccccccccccccccc" /><path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke"
-         d="M 16.902401,29.615317 17.046866,8.5234329 c 0.22392,-3.4297426 4.764701,-3.5797184 5.634133,-0.1444651 l 0.284224,-3.2553817 c 0.04803,-2.4795122 5.429829,-4.17481736 6.04562,-0.1383386 l 0.171079,3.5381854 c 1.304119,-4.0012618 6.239242,-3.2490749 6.211993,0.7223247 v 3.6116244 c 1.563099,-3.7613805 5.425834,-2.693198 5.778598,0.866789 l 0.123662,18.920326 C 41.085946,41.245856 34.118367,47.080167 26.423662,46.946626 19.601112,46.452118 15.701429,41.027283 12.255899,35.965768 9.8172782,32.35303 8.0901885,28.858459 7.2232452,26.292623 c -0.461175,-3.922365 2.4850877,-5.658295 5.4896688,-4.189484 2.769913,1.998064 3.397369,4.785453 4.189487,7.512178 z"
-         id="path140886"
-         sodipodi:nodetypes="ccccccccccccccc" /><path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke"
-         d="M 22.713944,8.1316244 22.431533,22.512222"
-         id="path141104"
-         sodipodi:nodetypes="cc" /><path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke"
-         d="M 29.088373,7.262007 28.805962,22.875322"
-         id="path141106" /><path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;paint-order:fill markers stroke"
-         d="M 35.422456,11.780589 35.261079,23.682212"
-         id="path141108" /></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 50 50">
+  <g paint-order="fill markers stroke">
+    <path fill="#fff" d="M17 30V9c0-4 5-4 6-1V5c0-2 5-4 6 0v4c1-4 6-4 6 0v4q5-6 6 1v19q-2 13-15 14-8-3-14-11L7 26q1-6 6-4z"/>
+      <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="0" d="M17 30V9c0-4 5-4 6-1V5c0-2 5-4 6 0v4c1-4 6-4 6 0v4q5-6 6 1v19q-2 13-15 14-8-3-14-11L7 26q1-6 6-4zm6-22-1 15m7-16v16m6-11v12"/>
+  </g>
+</svg>
