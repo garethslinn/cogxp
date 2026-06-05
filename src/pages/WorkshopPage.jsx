@@ -8,8 +8,8 @@ import Hero from "../components/Hero.jsx";
 import {Card} from "react-bootstrap";
 import {useBreadcrumb} from "../context/BreadcrumbContext.jsx";
 
-const CARD_LIMIT = 3;
-const STORAGE_KEY = "cogxp-workshop-v1";
+const CARD_LIMIT = 5;
+const STORAGE_KEY = "cogxp-workshop-v2";
 
 const emptySlots = () => Array.from({ length: CARD_LIMIT }, () => null);
 
@@ -110,27 +110,52 @@ export default function WorkshopPage() {
     const revealCard = (slotIndex) => {
         if (revealedCards[slotIndex] || currentStep !== 1) return;
 
-        const availableCards = deck.filter((item) =>
-            !revealedCards.some(
-                (revealed) =>
-                    revealed &&
-                    revealed.category === item.category &&
-                    revealed.card.title === item.card.title
-            )
+        const selectedKeys = new Set(
+            revealedCards
+                .filter(Boolean)
+                .map(createCardKey)
         );
 
-        if (!availableCards.length) return;
+        const availableCategories = cardsData.categories
+            .map((category) => {
+                const availableCards = category.cards.filter((card) => {
+                    const key = `${category.name}-${card.title}`;
+                    return !selectedKeys.has(key);
+                });
+
+                return {
+                    name: category.name,
+                    theme: category.theme,
+                    cards: availableCards
+                };
+            })
+            .filter((category) => category.cards.length > 0);
+
+        if (!availableCategories.length) return;
+
+        const randomCategory =
+            availableCategories[
+                Math.floor(Math.random() * availableCategories.length)
+                ];
 
         const randomCard =
-            availableCards[Math.floor(Math.random() * availableCards.length)];
+            randomCategory.cards[
+                Math.floor(Math.random() * randomCategory.cards.length)
+                ];
+
+        const drawnCard = {
+            category: randomCategory.name,
+            theme: randomCategory.theme,
+            card: randomCard
+        };
 
         const updatedCards = [...revealedCards];
-        updatedCards[slotIndex] = randomCard;
+        updatedCards[slotIndex] = drawnCard;
 
         setRevealedCards(updatedCards);
 
         if (!selectedCard) {
-            setSelectedCard(createCardKey(randomCard));
+            setSelectedCard(createCardKey(drawnCard));
         }
     };
 
@@ -239,7 +264,7 @@ export default function WorkshopPage() {
                 <Card aria-labelledby="step-title">
                     <p className="eyebrow">Step {currentStep} of 2</p>
                     <h2 id="step-title">
-                        {currentStep === 1 ? "Select three challenge cards" : "Discuss and capture outcomes"}
+                        {currentStep === 1 ? "Select five challenge cards" : "Discuss and capture outcomes"}
                     </h2>
                     <p>
                         {currentStep === 1
@@ -269,7 +294,7 @@ export default function WorkshopPage() {
 
                 <div className="selection-progress" aria-live="polite">
                     <strong>{selectedCount} of {CARD_LIMIT} selected</strong>
-                    <span>{allCardsSelected ? "Ready for discussion." : "Select all three cards to continue."}</span>
+                    <span>{allCardsSelected ? "Ready for discussion." : "Select all five cards to continue."}</span>
                 </div>
 
                 <div className="he-category-grid">
